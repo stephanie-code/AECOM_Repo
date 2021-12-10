@@ -1,0 +1,429 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20211130.181927.10388.0.001.json",
+    "dumpEventTime": "2021-11-30T18:19:27Z",
+    "dumpEventTimeStamp": "1638276567713",
+    "processId": 10388,
+    "cwd": "C:\\Users\\GMI-00076\\Documents\\AECOM",
+    "commandLine": [
+      "node",
+      "--max_old_space_size=4096",
+      "C:\\Users\\GMI-00076\\Documents\\AECOM\\node_modules\\react-app-rewired\\scripts\\start.js"
+    ],
+    "nodejsVersion": "v12.14.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.14.0",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.14.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19043",
+    "osVersion": "Windows 10 Home Single Language",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 5 4500U with Radeon Graphics         ",
+        "speed": 2371,
+        "user": 15324687,
+        "nice": 0,
+        "sys": 11988578,
+        "idle": 105559359,
+        "irq": 1361296
+      },
+      {
+        "model": "AMD Ryzen 5 4500U with Radeon Graphics         ",
+        "speed": 2371,
+        "user": 18524203,
+        "nice": 0,
+        "sys": 8949734,
+        "idle": 105398578,
+        "irq": 132765
+      },
+      {
+        "model": "AMD Ryzen 5 4500U with Radeon Graphics         ",
+        "speed": 2371,
+        "user": 14904453,
+        "nice": 0,
+        "sys": 6650734,
+        "idle": 111317328,
+        "irq": 98734
+      },
+      {
+        "model": "AMD Ryzen 5 4500U with Radeon Graphics         ",
+        "speed": 2371,
+        "user": 10439109,
+        "nice": 0,
+        "sys": 5391265,
+        "idle": 117042140,
+        "irq": 86265
+      },
+      {
+        "model": "AMD Ryzen 5 4500U with Radeon Graphics         ",
+        "speed": 2371,
+        "user": 8084656,
+        "nice": 0,
+        "sys": 4090531,
+        "idle": 120697328,
+        "irq": 55140
+      },
+      {
+        "model": "AMD Ryzen 5 4500U with Radeon Graphics         ",
+        "speed": 2371,
+        "user": 5103890,
+        "nice": 0,
+        "sys": 3292968,
+        "idle": 124475656,
+        "irq": 534875
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "b0:a4:60:2a:92:ed",
+        "address": "fe80::cdc2:d48c:b25e:ce5f",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 13
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "b0:a4:60:2a:92:ed",
+        "address": "192.168.1.2",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-3S8APRV"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff643151729",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643155b4c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643154b08",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff64324369b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643a482de",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643a30321",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6438fdbec",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643905cf1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6438fb353",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6438f9b24",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff64391adf5",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643686e19",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643e7404d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643def804",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643eda353",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643df3bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000af34470eb0",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 546197504,
+    "totalCommittedMemory": 546197504,
+    "usedMemory": 451322064,
+    "availableMemory": 3893742688,
+    "memoryLimit": 4345298944,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047488,
+        "used": 1047456,
+        "available": 32
+      },
+      "old_space": {
+        "memorySize": 382578688,
+        "committedMemory": 382578688,
+        "capacity": 381856736,
+        "used": 292774728,
+        "available": 89082008
+      },
+      "code_space": {
+        "memorySize": 4882432,
+        "committedMemory": 4882432,
+        "capacity": 4625888,
+        "used": 3036384,
+        "available": 1589504
+      },
+      "map_space": {
+        "memorySize": 7344128,
+        "committedMemory": 7344128,
+        "capacity": 7336240,
+        "used": 4643600,
+        "available": 2692640
+      },
+      "large_object_space": {
+        "memorySize": 149458944,
+        "committedMemory": 149458944,
+        "capacity": 149237200,
+        "used": 149237200,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 550400,
+        "used": 550400,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047488,
+        "used": 0,
+        "available": 1047488
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 88.109,
+    "kernelCpuSeconds": 23.859,
+    "cpuConsumptionPercent": 12.3996,
+    "maxRss": 815509504,
+    "pageFaults": {
+      "IORequired": 879944,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 13935,
+      "writes": 17
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\GMI-00076\\AppData\\Roaming",
+    "BABEL_ENV": "development",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132821068685356499",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_1036_BXJXSJFUAGAYLTQP",
+    "COLOR": "1",
+    "COLORTERM": "truecolor",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-3S8APRV",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EDITOR": "notepad.exe",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GIT_ASKPASS": "c:\\Users\\GMI-00076\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "HOME": "C:\\Users\\GMI-00076",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\GMI-00076",
+    "INIT_CWD": "C:\\Users\\GMI-00076\\Documents\\AECOM",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\GMI-00076\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-3S8APRV",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_ENV": "development",
+    "NODE_EXE": "C:\\Program Files\\nodejs\\\\node.exe",
+    "NODE_PATH": "",
+    "NPM_CLI_JS": "C:\\Users\\GMI-00076\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_command": "start",
+    "npm_config_cache": "C:\\Users\\GMI-00076\\AppData\\Local\\npm-cache",
+    "npm_config_globalconfig": "C:\\Users\\GMI-00076\\AppData\\Roaming\\npm\\etc\\npmrc",
+    "npm_config_init.module": "C:\\Users\\GMI-00076\\.npm-init.js",
+    "npm_config_init_module": "C:\\Users\\GMI-00076\\.npm-init.js",
+    "npm_config_metrics_registry": "https://registry.npmjs.org/",
+    "npm_config_node_gyp": "C:\\Users\\GMI-00076\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js",
+    "npm_config_prefix": "C:\\Users\\GMI-00076\\AppData\\Roaming\\npm",
+    "npm_config_userconfig": "C:\\Users\\GMI-00076\\.npmrc",
+    "npm_config_user_agent": "npm/7.6.0 node/v12.14.0 win32 x64",
+    "npm_execpath": "C:\\Users\\GMI-00076\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_lifecycle_event": "start",
+    "npm_lifecycle_script": "react-app-rewired --max_old_space_size=4096 start",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_json": "C:\\Users\\GMI-00076\\Documents\\AECOM\\package.json",
+    "npm_package_name": "wieldy-hook",
+    "npm_package_version": "2.5.0",
+    "NPM_PREFIX_NPM_CLI_JS": "C:\\Users\\GMI-00076\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "NUMBER_OF_PROCESSORS": "6",
+    "OneDrive": "C:\\Users\\GMI-00076\\OneDrive",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "Path": "C:\\Users\\GMI-00076\\Documents\\AECOM\\node_modules\\.bin;C:\\Users\\GMI-00076\\Documents\\node_modules\\.bin;C:\\Users\\GMI-00076\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Users\\GMI-00076\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs;C:\\Users\\GMI-00076\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\GMI-00076\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\GMI-00076\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\GMI-00076\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+    "PROCESSOR_LEVEL": "23",
+    "PROCESSOR_REVISION": "6001",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Users\\GMI-00076\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\GMI-00~1\\AppData\\Local\\Temp",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.62.3",
+    "TMP": "C:\\Users\\GMI-00~1\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-3S8APRV",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-3S8APRV",
+    "USERNAME": "GMI-00076",
+    "USERPROFILE": "C:\\Users\\GMI-00076",
+    "VSCODE_GIT_ASKPASS_EXTRA_ARGS": "--ms-enable-electron-run-as-node",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\GMI-00076\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\GMI-00076\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-e861ad5e64-sock",
+    "WEBPACK_DEV_SERVER": "true",
+    "windir": "C:\\WINDOWS"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll"
+  ]
+}
