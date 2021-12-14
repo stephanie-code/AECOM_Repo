@@ -22,7 +22,7 @@ const dispute = () => {
 
   return (
     <Auxiliary>
-      <div className='sentiment_wrapper'>
+      <div className='main_wrapper'>
         <Row className='pb'>
           <Col span={24} >
             <Widget className="gx-card" styleName='color_bg_color'>
