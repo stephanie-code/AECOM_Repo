@@ -11,8 +11,8 @@ const Analysis = () => {
     return (
         <Auxiliary>
             <div className='main_wrapper'>
-                {/* <TravelAnalysis /> */}
-                {/* <PowerBiReport /> */}
+                {/* <TravelAnalysis />
+                <PowerBiReport /> */}
                 {/* <iframe 
                     title="aecom_map_testing - Page 1" 
                     width="800" 

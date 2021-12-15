@@ -28,6 +28,10 @@ const App = ({ match }) => (
         path={`${match.url}orders`}
         component={asyncComponent(() => import("./orders"))}
       />
+      {/* <Route
+        path={`${match.url}analysis`}
+        component={asyncComponent(() => import("./analysis"))}
+      /> */}
     </Switch>
   </>
 

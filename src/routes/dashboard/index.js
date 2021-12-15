@@ -65,7 +65,7 @@ const Dashboard = () => {
                             <HouseOwnership />
                         </div>
                     </Col>
-                    
+
                     <Col span={12} >
                         <div className="card card-wh color_bg_color">
                             <div className="gradient"></div>
@@ -93,22 +93,25 @@ const Dashboard = () => {
                         </Widget>
                     </Col> */}
                     <Col span={12} >
-                        <Widget className="gx-card" styleName='color_bg_color card-wh'>
+                        <div className="card card-wh color_bg_color">
+                            <div className="gradient"></div>
                             <TitleBar title='Vehicle Ownership' styleName='card_title title-bar' />
                             <VehicleOwnership />
-                        </Widget>
+                        </div>
                     </Col>
                     <Col span={12} >
-                        <Widget className="gx-card" styleName='color_bg_color card-wh'>
+                        <div className="card card-wh color_bg_color">
+                            <div className="gradient"></div>
                             <TitleBar title='Travel Time' styleName='card_title title-bar' />
                             <TravelTime />
-                        </Widget>
+                        </div>
                     </Col>
                     <Col span={12} >
-                        <Widget className="gx-card" styleName='color_bg_color card-wh'>
+                        <div className="card card-wh color_bg_color">
+                            <div className="gradient"></div>
                             <TitleBar title='Modes Of Transportation' styleName='card_title title-bar' />
                             <ModesOfTransportation />
-                        </Widget>
+                        </div>
                     </Col>
                 </Row>
             </div>

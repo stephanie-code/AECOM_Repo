@@ -1,34 +1,26 @@
 import React, { useState } from "react";
 import { Col, Row, Select } from "antd";
 import Auxiliary from "util/Auxiliary";
+import { useDispatch } from "react-redux"; 
 
-import ListKeywords from "./ListKeywords";
-import TweetsTable from './TweetsTable'
 import MapRender from './components/MapRender';
+import PowerBi from './components/PowerBi';
 import Map from './components/Map';
 
+import {SelectTrip} from '../../appRedux/actions/SelectTrip';
 import TitleBar from '../../components/TitleBar'
-import Widget from '../../components/Widget'
-// import Select from '../../components/Select'
-import Analysis from '../analysis'
-
-import datasm from './components/Airports.json'
-
-
 
 const installchangedisconnect = () => {
-  const data = ['Intra', 'Inward', 'Outward']
-  const topics = [1, 2, 3, 4, 5]
-  const [tripType, setTripType] = useState('')
+  const Dispatch = useDispatch()
 
   const handleSelectChange = (value) => {
-    setTripType(value)
+    Dispatch(SelectTrip(value))
   }
 
   return (
     <Auxiliary>
       <div className="main_wrapper">
-        <Analysis />
+        {/* <Analysis /> */}
         <Row className='pb' gutter={[16, 24]}>
           <Col span={24} className="title">Transit Ridership Recovery Summary</Col>
 
@@ -39,6 +31,7 @@ const installchangedisconnect = () => {
               <Option value="Intra">Intra</Option>
               <Option value="Inward">Inward</Option>
               <Option value="Outward">Outward</Option>
+              <Option value="Overlay">Overlay</Option>
             </Select>
           </Col>
 
@@ -46,9 +39,8 @@ const installchangedisconnect = () => {
             <div className="card color_bg_color" style={{ width: '100%', height: '500px' }}>
               <div className="gradient"></div>
               <TitleBar title='Weeks to reach Pre-Covid Ridership' styleName='card_title title-bar' />
-              {/* <MapRender data={tripType}/> */}
-              <Map data={tripType}/>
-              {console.log('indes', tripType)}
+              {/* <MapRender /> */}
+              <Map />
             </div>
           </Col>
 
@@ -59,6 +51,7 @@ const installchangedisconnect = () => {
             </div>
           </Col>
 
+<PowerBi />
         </Row>
       </div>
     </Auxiliary>

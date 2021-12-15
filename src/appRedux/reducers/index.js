@@ -106,6 +106,7 @@ import {
 import {DistrictSelectReducer} from './DistrictSelectReducer'
 import {SentimentTopicReducer} from './SentimentTopicReducer'
 import {TweetKeywordReducer} from './TweetKeywordReducer'
+import {SelectTripReducer} from './SelectTripReducer';
 
 const createRootReducer = (history) =>
   combineReducers({
@@ -210,6 +211,7 @@ const createRootReducer = (history) =>
     District: DistrictSelectReducer,
     Sentiment: SentimentTopicReducer,
     TweetKeyword: TweetKeywordReducer,
+    TripType: SelectTripReducer
   });
 
 export default createRootReducer;

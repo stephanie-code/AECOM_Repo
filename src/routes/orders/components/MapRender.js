@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
-// import datasm from './Bus_Routes_in_NJ.json'
-import datasm from './Airports.json'
+import datasm from './Bus_Routes_in_NJ.json'
+import airports from './Airports.json'
 
 let infobox;
 
@@ -31,6 +31,7 @@ export class MapRender extends Component {
                 strokeColor: "#00FF00",
             },
         };
+        
         function pushpinClicked(e) {
             // console.log('pushpinClicked', e.target.metadata)
             this.state = ({
@@ -69,14 +70,15 @@ export class MapRender extends Component {
             var a = infobox.setMap(map);
 
             Microsoft.Maps.loadModule('Microsoft.Maps.GeoJson', function () {
-                var featureCollection = Microsoft.Maps.GeoJson.read(datasm, style3);
+                var featureCollection = Microsoft.Maps.GeoJson.read(
+                    this.props.tripType == undefined ? airports : datasm, style3);
 
                 for (var i = 0; i < featureCollection.length; i++) {
                     
                     Microsoft.Maps.Events.addHandler(featureCollection[i], 'click', pushpinClicked);
 
                     map.entities.push(featureCollection[i]);
-                    console.log('data', featureCollection[i])
+                    console.log('data', this.props.tripType)
                 }
 
             });

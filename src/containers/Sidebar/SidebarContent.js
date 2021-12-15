@@ -75,6 +75,15 @@ const SidebarContent = ({ sidebarCollapsed, setSidebarCollapsed }) => {
                 </Link>
               </Menu.Item>
 
+              {/* <Menu.Item key="analysis">
+                <Link to="/analysis">
+                  <i className="icon icon-refer" />
+                  <span>
+                    <IntlMessages id="Analysis" />
+                  </span>
+                </Link>
+              </Menu.Item> */}
+
               {/* <Menu.Item key="install">
                 <Link to="/install">
                   <i className="icon icon-anchor" /><span><IntlMessages id="sidebar.install" /></span>

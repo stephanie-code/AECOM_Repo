@@ -52,8 +52,8 @@ const pdata = [
 const ModesOfTransportation = () => {
     return (
         <>
-            <ResponsiveContainer width="100%" aspect={2.2}>
-                <LineChart data={pdata} height={500} >
+            <ResponsiveContainer width="100%" >
+                <LineChart data={pdata} height={300} >
                     <CartesianGrid />
                     <XAxis dataKey="name"
                         interval={'preserveStartEnd'} />
